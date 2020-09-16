@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#black-bar{
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+
+}
+#black-bar a{
+  color: white;
+  display: inline;
+}
+
+#datetime{
+  float: right;
+}
+
+.fixed-container{
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#logo-container{
+  position: absolute;
+  top: 40px;
+}
+
+#header{
+  height: 100px;
+}
+
+#city-select{
+  position: relative;
+  width: 70px;
+  top: 50px;
+  left: 180px;
+}
+
+#header-info{
+  width: 300px;
+  position: relative;
+  top: 25px;
+  left: 300px;
+}
+
+#search{
+  position: relative;
+  float: right;
+  width: 320px;
+  top: -10px;
+  height: 45px;
+}
+
+.header-icon{
+  position: relative;
+  top: 5px;
+}
+
+#menu-container{
+  height: 70px;
+}
+
+.navigation{
+  float:left;
+  height: 100%;
+}
+
+.navigation a{
+  font-family: sans-serif;
+  height: 100%;
+  color: black;
+  display: table;
+  float: left;
+  text-decoration: none;
+}
+
+.navigation a:active, a:hover{
+  color: skyblue;
+}
+
+.navigation a li{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+}
+
+
+#central-container{
+  height: 400px;
+}
+
+#column-left{
+  background-color: red;
+  width: 250px;
+  float: left;
+  height: 100px;
+}
+
+#column-center{
+  background-color: green;
+  width: 420px;
+  margin-left: 20px;
+  float: left;
+  height: 100px;
+}
+
+#column-right{
+  background-color: blue;
+  width: 250px;
+  float: right;
+  height: 100px;
+}

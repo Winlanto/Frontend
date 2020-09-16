@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form homework</title>
+  </head>
+  <body>
+    <main>
+      <h1>Отправка заявки на конференцию</h1>
+      <form method="post">
+        <h2>Основные данные</h2>
+        <h3><label for="fullName">*&nbsp;Фамилия, имя, отчество:</label></h3><input id="fullName" type="text" required="required" size="50">
+        <h3><label for="birthDate">Дата рождения:</label></h3><input id="birthDate" type="date">
+        <h3><label for="sex">Пол:</label></h3><input type="radio" name="sex">мужской<input type="radio" name="sex">женский<input id="sex" type="radio" name="sex">не указан
+        <h2>Данные для создания личного кабинета</h2>
+        <h3><label for="mail">*&nbsp;Адрес электронной почты:</label></h3><input id="mail" type="email" required="required" size="50">
+        <h3><label for="pswd">*&nbsp;Пароль для создания личного кабинета:</label></h3><input id="pswd" type="password" required="required" size="50">
+        <h3><label for="pswdConfirm">*&nbsp;Подтверждение пароля:</label></h3><input id="pswdConfirm" type="password" required="required" size="50">
+        <h2>Материалы для конференции</h2>
+        <h3><label for="docTheme">*&nbsp;Тема доклада:</label></h3><input id="docTheme" type="text" required="required" size="50">
+        <h3><label for="docThesis">*&nbsp;Тезисы доклада (не более 1000 символов):</label></h3><textarea  rows="12" cols="45" id="docThesis" required="required" maxlength="1000"></textarea>
+        <h3><label for="docFile">Файл презентации:</label></h3><input type="file" id="docFile">
+        <h2>Дополнительные опции</h2>
+        <input type="checkbox" id ="hotel">&nbsp;<label for="hotel">Проживание в отеле</label><br>
+        <input type="checkbox" id ="breakfast" checked="checked">&nbsp;<label for="breakfast">Завтрак</label><br>
+        <input type="checkbox" id ="supper">&nbsp;<label for="supper">Обед</label><br>
+        <input type="checkbox" id ="dinner">&nbsp;<label for="dinner">Ужин</label><br>
+        <hr>
+        <input type="submit">
+        <hr>
+        <small>*&nbsp;Поля, отмеченные звёздочкой, являются обязательными для заполнения</small>
+      </form>
+      </main>
+  </body>
+</html>
